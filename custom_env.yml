@@ -1,0 +1,11 @@
+name: carmax
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - pandas
+ - matplotlib
+ - python
+ - nb_conda_kernels
+ - ipykernel
+ - scikit-learn
