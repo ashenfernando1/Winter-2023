@@ -1,0 +1,57 @@
+mapping for the market data and the number
+-----------
+
+200k records
+120k after removing nans
+~160k after dropping trim_description
+
+-----------
+
+number the price and mileage ranges (give them 0-15 to 1)
+
+----------
+
+What is the business problem and what is the impact?
+What matters is the customer experience 
+
+Provide customers a personalized shopping experience?
+More like a recommender system
+
+I want to put in my car for appraisal for a price, then show me cars that I would be interested in 
+
+dont care about engine size, cylinders - fuel capacity, color, mpg_city highway
+
+look at price, mileage, body style 
+
+redduce the set of features for an initial analysis
+
+----------------------
+
+so many different populations buying from carmax
+- split into reasonable sub-populations
+	- 'upgrade' population - purch price is higher than 
+	- loyal to make, own an LTX and buy an LTX
+	- sticking to the same body style
+	- find a niche 
+    
+-----------------------
+
+Another division to analyze is the market where the transaction occurred
+
+----------------------------------------
+
+FOCUSED ANALYSES
+
+- purchased make and appraisal_make are same: BRAND LOYALTY
+    - if the brand is same, then what is the difference between the sold car, and the purchased car, in terms of:
+        - price
+        - mileage
+        - body style (trim_descrip)
+        - model
+- group by market where the transaction occured: MARKET CONSISTENCY
+- online and in-person appraisal: 
+- trim_descrip going from premium to or not_premium (or vice versa): UPGRADES or DOWNGRADES to lifestyle
+
+
+
+
